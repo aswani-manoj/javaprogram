@@ -1,1 +1,175 @@
 
+1.Prgm to print hello and your name on separate line:
+
+Code:
+
+class Mesg
+{
+    public static void public static void main (String[] args) {
+        System.out.System.out.println("Hello\nAswani");
+    }
+}
+
+Output:
+
+
+Hello World
+
+2.Program to print sum of 2 numbers
+
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println(24+23);
+	}
+}
+
+Output:
+
+47
+
+4.Program tp print area and perimeter of circle
+
+
+Code:
+
+class Area {
+ 
+   private static final double radius = 7.5;
+
+    public static void main(String[] args) {
+
+        double perimeter = 2 * Math.PI * radius;
+        double area = Math.PI * radius * radius;
+
+        System.out.println("Perimeter is = " + perimeter);
+        System.out.println("Area is = " + area);
+    }
+}
+
+Output:
+
+Perimeter is = 47.12388980384689
+Area is = 176.71458676442586
+
+5.Program to print whether number positive or negative
+
+code:
+
+class Demo
+{
+    public static void main(String[] args) 
+    {
+        int number=-10;
+        if(number > 0)
+        {
+            System.out.println(number+" is a positive number");
+        }
+        else if(number < 0)
+        {
+            System.out.println(number+" is a negative number");
+        }
+        else
+        {
+            System.out.println(number+" is neither positive nor negative");
+        }
+    }
+}
+
+Output:
+-10 is a negative number
+
+6.Program to print greatest of 3 numbers
+code:
+class JavaExample{
+
+  public static void main(String[] args) {
+
+      int num1 = 10, num2 = 20, num3 = 7;
+
+      if( num1 >= num2 && num1 >= num3)
+          System.out.println(num1+" is the largest Number");
+
+      else if (num2 >= num1 && num2 >= num3)
+          System.out.println(num2+" is the largest Number");
+
+      else
+          System.out.println(num3+" is the largest Number");
+  }
+}
+
+Output:
+
+20 is the largest Number
+
+7.Program tp display first 10 natural numbers
+
+code:
+class natural {
+    
+  public static void main(String[] args)
+    {     
+    int i;
+	System.out.println ("The first 10 natural numbers are:\n");
+	for (i=1;i<=10;i++)
+	{      
+		System.out.println (i);
+	}
+System.out.println ("\n");
+}
+}
+
+Output:
+The first 10 natural numbers are:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+8.program to find sum and average of 5 numbers
+
+code:
+import java.util.Scanner;
+public class Exercise12 {
+
+    
+  public static void main(String[] args)
+
+{       
+    int i,n=0,s=0;
+	double avg;
+	{
+	   
+        System.out.println("Input the 5 numbers : ");  
+         
+	}
+		for (i=0;i<5;i++)
+		{
+		    Scanner in = new Scanner(System.in);
+		    n = in.nextInt();
+		    
+  		s +=n;
+	}
+	avg=s/5;
+	System.out.println("The sum of 5 no is : " +s+"\nThe Average is : " +avg);
+ 
+}
+}
+
+output:
+Input the 5 numbers :                                                                                         
+1                                                                                                     
+2                                                                                                     
+3                                                                                                     
+4                                                                                                     
+5                                                                                                     
+The sum of 5 no is : 15                                                                                       
+The Average is : 3.0
+
