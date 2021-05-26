@@ -247,3 +247,80 @@ output:
 8
 9
 10
+
+11.java program to access array elements 
+
+code:
+
+class Main {
+ public static void main(String[] args) {
+  
+   // create an array
+   int[] num = {12, 4, 5, 2};
+
+   // access each array elements
+   System.out.println("Accessing Elements of Array:");
+   System.out.println("First Element: " + num[0]);
+   System.out.println("Second Element: " + num[1]);
+   System.out.println("Third Element: " + num[2]);
+   System.out.println("Fourth Element: " + num[3]);
+   
+ }
+}
+
+output:
+
+Accessing Elements of Array:
+First Element: 12
+Second Element: 4
+Third Element: 5
+Fourth Element: 2
+
+12.java program to print array elements using for loop
+
+code:
+
+class PrintArray {  
+    public static void main(String[] args) {  
+        
+        int [] arr = new int [] {1, 2, 3, 4, 5};  
+        System.out.println("Elements of given array: ");  
+          
+        for (int i = 0; i < arr.length; i++) {  
+            System.out.print(arr[i] + " ");  
+        }  
+    }  
+}  
+
+output:
+Elements of given array: 
+1 2 3 4 5 
+
+13.java program to print array elements using foreach loop
+
+code:
+public class PrintArray  
+{  
+public static void main(String args[])   
+{  
+   
+String[] city = new String[4];  
+
+city[0] = "Delhi";  
+city[1] = "Jaipur";  
+city[2] = "Gujarat";  
+city[3] = "Mumbai";  
+   
+for (String str : city)   
+{  
+System.out.println(str);  
+}  
+}  
+}  
+
+Output:
+
+Delhi
+Jaipur
+Gujarat
+Mumbai
