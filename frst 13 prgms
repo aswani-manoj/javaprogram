@@ -13,7 +13,8 @@ class Mesg
 Output:
 
 
-Hello World
+Hello
+Aswani
 
 2.Program to print sum of 2 numbers
 
@@ -173,3 +174,76 @@ Input the 5 numbers :
 The sum of 5 no is : 15                                                                                       
 The Average is : 3.0
 
+9.Program using switch statement to check size
+
+code:
+class Main {
+  public static void main(String[] args) {
+
+    int number = 44;
+    String size;
+
+    switch (number) {
+
+      case 29:
+        size = "Small";
+        break;
+
+      case 42:
+        size = "Medium";
+        break;
+
+      // match the value of week
+      case 44:
+        size = "Large";
+        break;
+
+      case 48:
+        size = "Extra Large";
+        break;
+      
+      default:
+        size = "Unknown";
+        break;
+
+    }
+    System.out.println("Size: " + size);
+  }
+}
+
+Output:
+Size: Large
+
+10.Program to print natural numbers up to 10 using while loop
+
+code:
+class num 
+{
+	public static void main(String args[])
+	{
+		
+		int i=1;
+
+		
+		System.out.println("Output is : ");
+
+		
+		while(i<=10)	
+		{
+			System.out.println(i);
+			i++;
+		}
+	}
+}
+
+output: 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
