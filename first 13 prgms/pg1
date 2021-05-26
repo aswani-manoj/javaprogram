@@ -1,1 +1,14 @@
+Code:
 
+class Mesg
+{
+    public static void public static void main (String[] args) {
+        System.out.System.out.println("Hello\nAswani");
+    }
+}
+
+Output:
+
+
+Hello
+Aswani
