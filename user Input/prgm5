@@ -1,1 +1,38 @@
+java program to print smallest element in the array.
+
+code:
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		int[] a=new int[20];
+		int s=5;
+		Scanner sc=new Scanner(System.in);
+		for(int i=0;i<s;i++){
+		    a[i]=sc.nextInt();
+		}
+		int min=a[0];
+		for(int i=0;i<s;i++){
+		    if(min>a[i]){
+		        min=a[i];
+		    }
+		}
+	  System.out.println("smallest element :"+min);
+	}
+}
+
+output:
+12
+
+23
+
+56
+
+76
+
+5
+
+smallest element :5
+
+
 
