@@ -1,1 +1,48 @@
+java program to print elements in an array on even position.
+
+code:
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		int[] a=new int[20];
+		int s=5;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the elements :");
+		for(int i=0;i<s;i++){
+		    a[i]=sc.nextInt();
+		}
+	 System.out.println("elements in even position :");
+     for(int i=0;i<s;i=i+2){
+     System.out.println("a["+i+"]: "+ a[i]);
+     }
+
+	}
+}
+
+output:
+
+Enter the elements :
+
+23
+
+87
+
+5
+
+46
+
+80
+
+elements in even position :
+
+a[0]: 23
+
+a[2]: 5
+
+a[4]: 80
+
+
+
 
