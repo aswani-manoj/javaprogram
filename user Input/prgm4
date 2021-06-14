@@ -1,1 +1,45 @@
+java program to print elements of array on odd position.
+
+code:
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		int[] a=new int[20];
+		int s=5;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the elements :");
+		for(int i=0;i<s;i++){
+		    a[i]=sc.nextInt();
+		}
+	 System.out.println("elements in odd position :");
+     for(int i=1;i<s;i=i+2){
+     System.out.println("a["+i+"]: "+ a[i]);
+     }
+
+	}
+}
+
+output:
+Enter the elements :
+
+22
+
+54
+
+7
+
+45
+
+32
+
+elements in odd position :
+
+a[1]: 54
+
+a[3]: 45
+
+
+
 
